@@ -15,7 +15,7 @@
           <div class="c-media_container">
             <p class="c-media_title">Web制作</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
-            <p class="c-media_sum"s>
+            <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
             </p>
@@ -27,7 +27,7 @@
           <div class="c-media_container">
             <p class="c-media_title">Web制作</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
-            <p class="c-media_sum"s>
+            <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
             </p>
@@ -39,7 +39,7 @@
           <div class="c-media_container">
             <p class="c-media_title">Web制作</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
-            <p class="c-media_sum"s>
+            <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
             </p>
@@ -51,7 +51,7 @@
           <div class="c-media_container">
             <p class="c-media_title">Web制作</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
-            <p class="c-media_sum"s>
+            <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
             </p>
@@ -75,6 +75,7 @@
 <style lang="scss" scoped>
   .p-hero {
     position: relative;
+    height: 1130px;
   }
   .p-hero_baseImage {
     background-image: url('https://placehold.jp/150x150.png');
@@ -82,6 +83,7 @@
   }
   .p-hero_content {
     position: absolute;
+    height: 1130px;
     left: 0;
     top: 0;
     background: rgba(195,80,79,0.65);;
