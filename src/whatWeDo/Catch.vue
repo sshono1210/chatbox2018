@@ -1,10 +1,10 @@
 <template>
-  <section class="c-catch">
-    <img class="c-catch_logo" src="https://placehold.jp/150x150.png" alt="">
-    <div class="c-catch_title">chatboxにできること</div>
-    <div class="c-catch_angle">
+  <section class="p-catch">
+    <img class="p-catch_logo" src="https://placehold.jp/150x150.png" alt="">
+    <div class="p-catch_title">chatboxにできること</div>
+    <div class="p-catch_angle">
       <!--TODO 一旦うまくいかないので無視-->
-      <!--<div class="c-catch_angle_logo"></div>-->
+      <!--<div class="p-catch_angle_logo"></div>-->
     </div>
   </section>
 </template>
@@ -16,23 +16,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .c-catch {
+  .p-catch {
     position: relative;
     text-align: center;
   }
-  .c-catch_logo {
+  .p-catch_logo {
     margin-top: 10px;
     width: 100px;
     height: 80px;
   }
-  .c-catch_title {
+  .p-catch_title {
     margin-top: 10px;
     margin-bottom: 16px;
     color: #B43B3E;
     font-size: 26px;
     letter-spacing: 6px;
   }
-  .c-catch_angle {
+  .p-catch_angle {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@ export default {
     border-left: 40px solid #B43B3E;
   }
   /*TODO うまくいかないので一旦無視*/
-  /*.c-catch_angle_logo {*/
+  /*.p-catch_angle_logo {*/
     /*position: absolute;*/
     /*top: 2px;*/
     /*left: 2px;*/
