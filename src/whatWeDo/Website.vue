@@ -7,12 +7,38 @@
           Web制作
           <span>最新技術でしっかりサポート</span>
         </p>
-        <!--<img src="https://placehold.jp/150x150.png" class="c-block_thumb">-->
-        <p class="c-block_sum">
-          複雑化するシステム構築の課題を、<br>
-          最新の制作技術でしっかりサポート
-        </p>
-        <p class="c-block_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+        <div class="c-block_container_inner">
+          <div class="c-balloon">
+            <div class="c-balloon_text">スマートフォン対応がしたい</div>
+            <div class="c-balloon_nozzle"><span></span></div>
+          </div>
+          <div class="c-balloon">
+            <div class="c-balloon_text">大規模サイトでスタイルガイドでCSSを管理したい</div>
+            <div class="c-balloon_nozzle"><span></span></div>
+          </div>
+          <div class="c-balloon">
+            <div class="c-balloon_text">プログレッシブWebにしたい</div>
+            <div class="c-balloon_nozzle"><span></span></div>
+          </div>
+          <div class="c-balloon">
+            <div class="c-balloon_text">サイトの高速化に対応したい</div>
+            <div class="c-balloon_nozzle"><span></span></div>
+          </div>
+          <p class="c-block_sum">
+            複雑化するシステム構築の課題を、
+            最新の制作技術でしっかりサポート
+          </p>
+          <p class="c-block_desc">
+            <span>複雑化するシステム構築の課題</span>を、<span>最新の制作技術でしっかりサポート</span>多様化するニーズや、複雑化するシステム構築の課題を、最新の制作技術でしっかりサポート。Web制作に関するあらゆる相談に対応出来るよう、<span>経験豊富なスタッフが親身に対応にあたります。</span>
+          </p>
+          <div class="c-block_label">導入事例</div>
+          <div class="c-block_case">
+            Webサイト制作 / Webサイト制作 / Webサイト制作 / Webサイト制作 / Webサイト制作
+          </div>
+          <div class="c-arrowButton">
+            <span>詳細を見る</span><span></span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -43,10 +69,6 @@
     color: #FFF;
     text-align: center;
   }
-  /*.c-block_thumb {*/
-    /*width: 100%;*/
-    /*height: 80px;*/
-  /*}*/
   .c-block_title {
     padding-top: 10px;
     padding-bottom: 16px;
@@ -61,15 +83,71 @@
       font-weight: normal;
     }
   }
+  .c-block_container_inner {
+    padding: 0 10px;
+  }
   .c-block_sum {
     font-size: 24px;
     color: #B43B3E;
     text-align: center;
   }
   .c-block_desc {
-    padding: 0 8px 8px 8px;
+    font-size: 20px;
     text-align: left;
+    line-height: 36px;
+    span {
+      font-weight: bold;
+    }
+  }
+  .c-block_label {
+    background-color: #F5F1F1;
+    padding: 6px 0;
+    font-size: 18px;
+  }
+  .c-block_case {
+    text-align: justify;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 
+  .c-balloon {
+    display: inline-block;
+  }
+  .c-balloon_text {
+    background-color: #F5F1F1;
+    padding: 6px 12px;
+    display: inline-block;
+    text-align: left;
+  }
+  .c-balloon_nozzle {
+    span {
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-top: 10px solid #F5F1F1;
+      display: inline-block;
+    }
+  }
+
+  .c-arrowButton {
+    text-align: right;
+    span:nth-child(1) {
+      background-color: #B43B3E;
+      color: #fff;
+      font-size: 18px;
+      padding: 18px 40px 18px 50px;
+      display: inline-block;
+    }
+    span:nth-child(2) {
+      width: 0;
+      height: 0;
+      border: 27px solid transparent;
+      border-left: 27px solid #B43B3E;
+      display: inline-block;
+    }
+
+  }
 
 </style>
