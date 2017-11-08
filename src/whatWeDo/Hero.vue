@@ -23,9 +23,9 @@
           </div>
         </div>
         <div class="c-media">
-          <div class="c-media_number">01</div>
+          <div class="c-media_number">02</div>
           <div class="c-media_container">
-            <p class="c-media_title">Web制作</p>
+            <p class="c-media_title">システム開発</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
@@ -35,9 +35,9 @@
           </div>
         </div>
         <div class="c-media">
-          <div class="c-media_number">01</div>
+          <div class="c-media_number">03</div>
           <div class="c-media_container">
-            <p class="c-media_title">Web制作</p>
+            <p class="c-media_title">技術顧問</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
@@ -47,9 +47,9 @@
           </div>
         </div>
         <div class="c-media">
-          <div class="c-media_number">01</div>
+          <div class="c-media_number">04</div>
           <div class="c-media_container">
-            <p class="c-media_title">Web制作</p>
+            <p class="c-media_title">イベント</p>
             <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
@@ -119,7 +119,7 @@
     }
   }
   .c-media_container {
-    background-color: #fff;
+    background-color: #F5F1F1;
   }
   .c-media_number {
     padding-top: 8px;

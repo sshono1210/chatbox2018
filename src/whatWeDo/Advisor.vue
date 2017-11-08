@@ -1,5 +1,5 @@
 <template>
-  <section class="p-website">
+  <section class="p-advisor">
     <div class="c-block">
       <div class="c-block_number">03</div>
       <div class="c-block_container">
@@ -88,7 +88,7 @@
     }
   }
   .c-block_container_inner {
-    padding: 0 10px;
+    padding: 0 10px 30px 10px;
   }
   .c-block_sum {
     font-size: 24px;
@@ -117,7 +117,6 @@
   }
   .c-block_button {
     text-align: right;
-    margin-bottom: 20px;
   }
 
   .c-balloon {

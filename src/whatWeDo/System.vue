@@ -1,5 +1,5 @@
 <template>
-  <section class="p-website">
+  <section class="p-system">
     <div class="c-block">
       <div class="c-block_number">02</div>
       <div class="c-block_container">
@@ -58,9 +58,10 @@
   .c-block {
     text-align: center;
     padding-top: 30px;
+    background-color: #F5F1F1;
   }
   .c-block_container {
-    background-color: #fff;
+    background-color: #F5F1F1;
   }
   .c-block_number {
     padding-top: 8px;
@@ -88,7 +89,8 @@
     }
   }
   .c-block_container_inner {
-    padding: 0 10px;
+    padding: 0 10px 30px 10px;
+
   }
   .c-block_sum {
     font-size: 24px;
@@ -104,7 +106,7 @@
     }
   }
   .c-block_label {
-    background-color: #F5F1F1;
+    background-color: #fff;
     padding: 6px 0;
     font-size: 18px;
   }
@@ -117,14 +119,13 @@
   }
   .c-block_button {
     text-align: right;
-    margin-bottom: 20px;
   }
 
   .c-balloon {
     display: inline-block;
   }
   .c-balloon_text {
-    background-color: #F5F1F1;
+    background-color: #fff;
     padding: 6px 12px;
     display: inline-block;
     text-align: left;
@@ -134,7 +135,7 @@
       width: 0;
       height: 0;
       border: 10px solid transparent;
-      border-top: 10px solid #F5F1F1;
+      border-top: 10px solid #fff;
       display: inline-block;
     }
   }
