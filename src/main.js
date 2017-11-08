@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import "./common.scss";
 // import App from './__App.vue'
 import Catch from './whatWeDo/Catch.vue'
 import Hero from './whatWeDo/Hero.vue'
@@ -7,7 +8,6 @@ import System from './whatWeDo/System.vue'
 import Advisor from './whatWeDo/Advisor.vue'
 import Event from './whatWeDo/Event.vue'
 import Footer from './Footer.vue'
-import "./common.scss";
 
 
 new Vue({
