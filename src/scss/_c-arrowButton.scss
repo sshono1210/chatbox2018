@@ -1,0 +1,21 @@
+.c-arrowButton {
+  display: inline-block;
+}
+.c-arrowButton_container {
+  display: flex;
+  span:nth-child(1) {
+    background-color: #B43B3E;
+    color: #fff;
+    font-size: 18px;
+    padding: 18px 40px 18px 50px;
+    display: inline-block;
+  }
+  span:nth-child(2) {
+    width: 0;
+    height: 0;
+    border: 32px solid transparent;
+    border-left: 16px solid #B43B3E;
+    display: inline-block;
+  }
+
+}

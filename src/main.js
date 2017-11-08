@@ -7,6 +7,8 @@ import System from './whatWeDo/System.vue'
 import Advisor from './whatWeDo/Advisor.vue'
 import Event from './whatWeDo/Event.vue'
 import Footer from './Footer.vue'
+import "./common.scss";
+
 
 new Vue({
   el: '#catch',
