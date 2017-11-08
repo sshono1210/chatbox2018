@@ -35,8 +35,12 @@
           <div class="c-block_case">
             Webサイト制作 / Webサイト制作 / Webサイト制作 / Webサイト制作 / Webサイト制作
           </div>
-          <div class="c-arrowButton">
-            <span>詳細を見る</span><span></span>
+          <div class="c-block_button">
+            <a href="#" class="c-arrowButton">
+              <div class="c-arrowButton_container">
+                <span>詳細を見る</span><span></span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -111,6 +115,10 @@
     padding-top: 10px;
     padding-bottom: 30px;
   }
+  .c-block_button {
+    text-align: right;
+    margin-bottom: 20px;
+  }
 
   .c-balloon {
     display: inline-block;
@@ -132,7 +140,10 @@
   }
 
   .c-arrowButton {
-    text-align: right;
+    display: inline-block;
+  }
+  .c-arrowButton_container {
+    display: flex;
     span:nth-child(1) {
       background-color: #B43B3E;
       color: #fff;
@@ -143,8 +154,8 @@
     span:nth-child(2) {
       width: 0;
       height: 0;
-      border: 27px solid transparent;
-      border-left: 27px solid #B43B3E;
+      border: 32px solid transparent;
+      border-left: 16px solid #B43B3E;
       display: inline-block;
     }
 
