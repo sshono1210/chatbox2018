@@ -56,110 +56,26 @@
 
 <style lang="scss" scoped>
   .c-block {
-    text-align: center;
-    padding-top: 30px;
+    @extend .c-block;
     background-color: #F5F1F1;
   }
   .c-block_container {
+    @extend .c-block_container;
     background-color: #F5F1F1;
   }
-  .c-block_number {
-    padding-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #B43B3E;
-    width: 76px;
-    height:38px;
-    border-radius:38px 38px 0 0;
-    color: #FFF;
-    text-align: center;
-  }
-  .c-block_title {
-    padding-top: 10px;
-    padding-bottom: 16px;
-    font-weight: bold;
-    font-size: 30px;
-    color: #fff;
-    background-image: url("https://placehold.jp/150x150.png");
-    background-size: cover;
-    span {
-      display: block;
-      font-size: 20px;
-      font-weight: normal;
-    }
-  }
-  .c-block_container_inner {
-    padding: 0 10px 30px 10px;
-
-  }
-  .c-block_sum {
-    font-size: 24px;
-    color: #B43B3E;
-    text-align: center;
-  }
-  .c-block_desc {
-    font-size: 20px;
-    text-align: left;
-    line-height: 36px;
-    span {
-      font-weight: bold;
-    }
-  }
   .c-block_label {
+    @extend .c-block_label;
     background-color: #fff;
-    padding: 6px 0;
-    font-size: 18px;
-  }
-  .c-block_case {
-    text-align: justify;
-    line-height: 28px;
-    letter-spacing: 1px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
-  .c-block_button {
-    text-align: right;
-  }
-
-  .c-balloon {
-    display: inline-block;
   }
   .c-balloon_text {
+    @extend .c-balloon_text;
     background-color: #fff;
-    padding: 6px 12px;
-    display: inline-block;
-    text-align: left;
   }
   .c-balloon_nozzle {
+    @extend .c-balloon_nozzle;
     span {
-      width: 0;
-      height: 0;
-      border: 10px solid transparent;
       border-top: 10px solid #fff;
-      display: inline-block;
     }
-  }
-
-  .c-arrowButton {
-    display: inline-block;
-  }
-  .c-arrowButton_container {
-    display: flex;
-    span:nth-child(1) {
-      background-color: #B43B3E;
-      color: #fff;
-      font-size: 18px;
-      padding: 18px 40px 18px 50px;
-      display: inline-block;
-    }
-    span:nth-child(2) {
-      width: 0;
-      height: 0;
-      border: 32px solid transparent;
-      border-left: 16px solid #B43B3E;
-      display: inline-block;
-    }
-
   }
 
 

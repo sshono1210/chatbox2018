@@ -1,0 +1,19 @@
+.c-balloon {
+  display: inline-block;
+}
+.c-balloon_text {
+  background-color: #F5F1F1;
+  padding: 6px 12px;
+  display: inline-block;
+  text-align: left;
+}
+.c-balloon_nozzle {
+  span {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #F5F1F1;
+    display: inline-block;
+  }
+}
+
