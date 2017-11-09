@@ -83,7 +83,7 @@
   }
   .p-hero_content {
     position: absolute;
-    height: 1130px;
+    height: 30%;
     left: 0;
     top: 0;
     background: rgba(195,80,79,0.65);;
@@ -107,6 +107,10 @@
     margin-top: 30px;
     text-align: center;
   }
-
+  @media screen and (min-width: 768px) {
+    .p-hero {
+      height: 3%;
+    }
+  }
 
 </style>
