@@ -77,6 +77,4 @@
       border-top: 10px solid #fff;
     }
   }
-
-
 </style>
