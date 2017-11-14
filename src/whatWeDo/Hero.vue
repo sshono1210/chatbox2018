@@ -60,9 +60,6 @@
         </div>
       </div>
     </div>
-
-
-
   </section>
 </template>
 
@@ -83,7 +80,7 @@
   }
   .p-hero_content {
     position: absolute;
-    height: 1130px;
+    height: 33%;
     left: 0;
     top: 0;
     background: rgba(195,80,79,0.65);;
@@ -107,6 +104,9 @@
     margin-top: 30px;
     text-align: center;
   }
-
+  @media screen and (min-width: 768px) {
+    .p-hero {
+    }
+  }
 
 </style>

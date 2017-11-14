@@ -61,3 +61,20 @@
 .c-block_button {
   text-align: right;
 }
+@media screen and (min-width: 768px) {
+  .c-block{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .c-block_case{
+    margin-top: 3%;
+  }
+  .c-block_sum{
+    font-weight: bold;
+    text-align: left;
+    margin: 3% 0;
+  }
+  .c-block_desc{
+    margin-bottom: 5%;
+  }
+}

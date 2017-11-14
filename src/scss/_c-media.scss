@@ -1,12 +1,10 @@
 .c-media {
   width: 44%;
-  display: inline-block;
-  &:nth-child(odd) {
-    padding-right: 4px;
-  }
-  &:nth-child(even) {
-    padding-left: 4px;
-  }
+}
+.p-hero_media{
+  display: inline-flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 }
 .c-media_container {
   background-color: #F5F1F1;
@@ -39,4 +37,17 @@
 .c-media_desc {
   padding: 0 8px 8px 8px;
   text-align: left;
+}
+@media screen and (min-width: 768px) {
+  background-color: #17a2b8;
+  .p-hero_media{
+    .c-media {
+      width: 20%;
+    }
+    .c-media:first-child(1) {
+      margin-right: 0;
+    }
+  }
+
+
 }
